@@ -1,3 +1,22 @@
+# installations
+!pip install streamlit --q
+!pip install pyngrok --q
+!pip install SpeechRecognition --q
+!pip install pydub --q
+!pip install transformers --q
+!pip install gtts --q
+!apt-get install -y ffmpeg
+!pip install accelerate
+# resolving "No inf checks were recorded for this optimizer." issue
+!pip install optimum --q
+!pip install peft --q
+!pip uninstall torch -y
+!pip install torch==2.1 --q
+!pip install auto-gptq --upgrade --q
+!pip install bitsandbytes --q
+!pip install SpeechRecognition --q
+!pip install gtts --q
+!pip install pydub --q
 #%%writefile voice_app.py
 
 import streamlit as st
