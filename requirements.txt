@@ -1,18 +1,18 @@
 # installations
-streamlit --q
-pyngrok --q
-SpeechRecognition --q
-pydub --q
-transformers --q
-gtts --q
+streamlit 
+pyngrok 
+SpeechRecognition 
+pydub 
+transformers 
+gtts 
 !apt-get install -y ffmpeg
 accelerate
 # resolving "No inf checks were recorded for this optimizer." issue
-optimum --q
-peft --q
+optimum 
+peft 
 uninstall torch -y
-torch==2.1 --q
-auto-gptq --upgrade --q
-bitsandbytes --q
-SpeechRecognition --q
-pydub --q
+torch==2.1 
+auto-gptq --upgrade 
+bitsandbytes 
+SpeechRecognition 
+pydub 
