@@ -4,7 +4,7 @@ SpeechRecognition
 pydub 
 transformers 
 gtts 
-apt-get install -y ffmpeg
+ffmpeg
 accelerate
 # resolving "No inf checks were recorded for this optimizer." issue
 optimum 
